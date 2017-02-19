@@ -21,11 +21,11 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/home/u951424065/public_html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'u951424065_hcco');
+define( 'WPCACHEHOME', '/home/u951424065/public_html/staging/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define('DB_NAME', 'u951424065_stag');
 
 /** MySQL database username */
-define('DB_USER', 'u951424065_admin');
+define('DB_USER', 'u951424065_stag');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'hardcraft2015');
