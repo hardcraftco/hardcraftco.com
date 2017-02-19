@@ -1,0 +1,45 @@
+/*
+Theme Name: train
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+/*
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+*/
+textarea{padding-right:3px;}
+ul,ol{margin:0 15px 1.5em 0;padding-right:15px;}
+li > ul,li > ol{margin-right:1.5em;}
+input[type=\"text\"],input[type=\"email\"],input[type=\"url\"],input[type=\"password\"],textarea{float:left;}
+.page-numbers{padding-right:0;}
+.page-numbers > li:first-child > a, .page-numbers > li:first-child > span{border-bottom-right-radius:4px;margin-right:0;}
+.page-numbers > li > a, .page-numbers > li > span{float:right;margin-right:-1px;}
+.screen-reader-text:focus{right:5px;}
+.alignleft{float:right;margin-left:1.5em;}
+.alignright{float:left;margin-right:1.5em;}
+.aligncenter{margin-right:auto;margin-left:auto;}
+.comment-list{margin-right:0;padding-right:2px;}
+ol .children{margin-right:0;padding-right:0;}
+.children li{border-color:-moz-use-text-color #ddd -moz-use-text-color -moz-use-text-color;border-style:none solid none none;border-width:medium 3px medium medium;}
+.comment-author.vcard{float:right;}
+.comment-metadata{float:left;}
+.gallery .gallery-item{margin-left:0 !important;}
+.page-section aside .single ul{padding-right:0px;margin-right:20px;}
+.page-section aside .single li{padding-right:1.2em;}
+.page-section aside .single li:before{margin-right:-1.2em;}
+.left{float:right;}
+.right{float:left;}
+#text-right{text-align:left;}
+.border-left{border-right:1px solid #CCC;}
+.margin-padding{margin:10px 40px 30px 20px;padding:10px 40px 30px 20px;}
+.margin-padding-left-right{margin-right:10px;padding-left:20px;}
+#right{left:0px;}
+.clear{clear:right;}

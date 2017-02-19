@@ -1,0 +1,100 @@
+Changelog
+
+Tested up to: 4.5.3
+
+Version 1.0.0
+i)   	Intial version Release
+
+Version 1.0.2
+i)   	Added Number of Post Selection in Featured Section
+ii)	 	Included RTL ready mode in customizer theme option
+iii)	Removed unnecessary files
+iv)		Corrections as per WP Standard 
+v) 	    Replaced Minified CSS and JS with Unminified CSS and JS
+vi) 	Sanitization of missing output
+vii)   	Enqueing Google fonts with proper method.
+viii) 	Removed unneccessary commented code	
+x)      Added Number of Post Selection in Slider Section
+xi)  	Image Licsense were added in readme.txt
+xii) 	Language file updated as per other files changes
+xiii)   Default Image is added in Slider Section.
+xiv)    Fixed the css of page not found sidebar.
+
+Version 1.0.3
+i)   	Solve The Minnor Error and Warning
+ii)	 	Remove Default Image
+iii)    Remove Expcerpt Function and Defult Excerpt of WordPress
+iv)		Removed Unused Files
+v)		Added theme instruction in readme.txt
+vi)		Removed unused Js Files
+vii) 	Combined additional theme function in  extra.php and removed other files
+viii)	Removed Unused functions and Codes
+ix)		Changed Page Tempalate and and Tempaltes Parts
+x)    	Escaped Output from get_theme_mod is fixed 
+xi)		CSS fixation & Improvement
+xii)	Default Template Will act as for blog and front-page so removed other page templates
+xiii)	Screenshot changed
+xiv)	Front-page tempalte and default blog tempalte is mergerd	 
+
+Version 1.0.4
+i) 		CSS issue fixed for the widgets
+ii) 	Parent Menu for the Child item is Fixed 
+
+Version 1.0.5
+i) 		Corrections as per suggestions
+
+Version 1.0.6
+
+i)		Removed Unused Files
+ii) 	Screenshot Changed 
+iii)	JS and CSS Properly Formated 
+iv)		WordPress Core Pagination is Used 
+v) 		Other Minor Issue is Fixed
+
+
+Version 1.0.7
+
+i)		Removed the title fallbacks in custom-train.php
+ii)		Removed fancybox js and css file
+iii)	Escaped some output .
+iv)		Added prefix for add_image_sizes
+v)		Deleted content-search.php 
+vi) 	Correction  as per suggestions on 1.0.6
+
+
+Version 1.0.8
+
+i)		Removed images folder
+ii)		Updated train.pot file
+iii)	Corrected escape function on some files.
+iv)		Fixed css issue on logo section
+
+Version 1.0.9
+
+i)		Escaping fixed
+ii)		translation ready fixed
+iii)	Copyright to oceanwebthemes
+iv)		prefix removed in train_theme_setup
+v)		suffix removed 
+
+Version 1.0.10
+
+i)		Fixed remaining issues on language.
+ii)		Changed links to #.
+iii)	Changed author uri.
+iv)		Fixed other mentioned issues.
+
+Version 2.0.1
+i)		Comments Language change
+ii)		Comments-template.php is removed 
+iii)	Removed sanitize_sidebar_widgets() and preview_sidebars_widgets() from custom-train.php
+iv)		Comments are added custom.css file 
+v)		Combined responsive.css to custom.css and responsive-rtl.css to custom-rtl.css
+vi)		train.pot is updated 
+
+Version 2.0.2
+i)		Comments Language change in other files 
+ii)		linebreak is removed in CSS and Js
+
+Version 2.0.3
+i)		Link to pro is added

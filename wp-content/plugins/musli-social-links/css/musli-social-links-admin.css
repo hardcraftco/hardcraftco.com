@@ -1,0 +1,138 @@
+.msl-option-slider{
+	width:200px;
+	height: 5px!important;display: inline-block;
+	margin-right: 5px;
+}
+
+.msl-option-slider > span {
+	width: 10px!important;
+	height: 10px!important;
+	top: -3px!important;
+}
+#msl-position {
+	margin: 0!important;
+}
+#msl-position li{
+	display: inline-block;
+	margin-right: 10px;
+	text-align: center;
+}
+
+/* SOCIAL ICONS POPUP */
+
+.icons-set {
+	display: none;
+	background: #fff;
+	/*max-width: 370px;*/
+	padding: 10px 16px;
+	/*border-radius: 5px;*/
+	position: relative;
+	margin-top: 20px;
+	border: 1px solid rgb(229, 229, 229);
+}
+
+.icons-set a {
+	display: inline-block;
+	-moz-transition: .2s ease-out;
+	-webkit-transition: .2s ease-out;
+	transition: .2s ease-out;
+}
+
+.icons-set a:hover {
+	background: #777;
+}
+
+.icons-set a:hover i {
+	color: #fff;
+}
+
+.icons-set a i{
+	display: block;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 24px;
+	color: #444;
+}
+
+/* Links List */
+
+#msl-list li{
+	padding: 10px;
+	background: #f5f5f5;
+	position: relative;
+	border: 1px solid rgb(229, 229, 229);
+	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04);
+	-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04);
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#msl-list .load-icons-set, #msl-list .fa-action {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: inline-block;
+	font-size: 24px;
+	background: #fff;
+	border-radius: 50%;
+	margin-right: 10px;
+	position: relative;
+	-moz-transition: .3s ease-out;
+	-webkit-transition: .3s ease-out;
+	transition: .3s ease-out;
+}
+
+#msl-list .fa-action {
+	/*background: #61BFF3;*/
+	background: #C81E2B;
+	color: #fff;
+	border: 0;
+	box-shadow: 0;
+}
+
+#msl-list .fa-action:hover {
+	background: #fd130d;
+}
+
+#msl-list .fa-action:hover:before{
+	content:"\f014";
+}
+
+
+#msl-list .load-icons-set:hover {
+	background: #2f261c;
+	color: #fff;
+}
+
+
+#msl-list input {
+	padding: 6px 10px;
+	margin-right: 10px;
+	min-width: 280px!important;
+}
+
+#msl-list input:focus {
+	border-color: transparent;
+	box-shadow: none;
+}
+
+.link-prototype {
+	display: none;
+}
+
+#msl-list li.active {
+	background: #ff8b00;
+}
+
+.ui-state-highlight {
+	height: 44px;
+	background: #fce1ca!important;
+}

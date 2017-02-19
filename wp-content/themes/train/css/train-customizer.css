@@ -1,0 +1,23 @@
+/**
+ * Customizer Custom CSS
+ */
+.train-ads {
+  background-color: #37827F;
+  text-align: center;
+}
+.train-ads .button {
+    background-color: #37827F;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    color: #ffffff;
+    margin: 15px 0;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition:all 0.5s ease-in-out 0s;
+    -moz-transition:all 0.5s ease-in-out 0s;
+}
+.train-ads .button:hover,
+.train-ads .button:focus
+{
+  background-color: #81d742 ;
+  color: #ffffff;
+}

@@ -1,0 +1,47 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 2017-02-18 14:33:22
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.30
+WORDPRESS:	4.7.2
+PHP INFO:	5.6.21 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: [30] not allowed 
+PHP MAX MEMORY: 2048M (128M default) 
+MEMORY STACK: 45.5MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:29 | filtered:0 | create:29 
+FILTERED: [] 
+SQL CREATED: 20170218_hcco_58a85ad97f9919729170218143153_database.sql 
+SQL FILE SIZE: 1.29MB (1351406) 
+SQL FILE TIME: 2017-02-18 14:33:23 
+SQL RUNTIME: 0.17 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/u951424065/public_html 
+ARCHIVE FILE: 20170218_hcco_58a85ad97f9919729170218143153_archive.zip 
+FILTERS: *OFF* 
+DIRS: not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	171.14MB 
+STATS:	Dirs 641 | Files 5,115 
+SQL ADDED: 20170218_hcco_58a85ad97f9919729170218143153_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5756
+    [filename] => /home/u951424065/public_html/wp-snapshots/tmp/20170218_hcco_58a85ad97f9919729170218143153_archive.zip
+    [comment] => 
+)
+ 

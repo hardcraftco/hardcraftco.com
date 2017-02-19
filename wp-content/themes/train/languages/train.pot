@@ -1,0 +1,399 @@
+# Copyright (C) 2016 oceanwebthemes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Train 2.0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/train\n"
+"POT-Creation-Date: 2016-06-12 21:51:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: oceanwebthemes <info@oceanwebthemes.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:16
+#train
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:45
+#train
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+#train
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37
+#: comments.php:58
+#train
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40
+#: comments.php:61
+#train
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:41
+#: comments.php:62
+#train
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:74
+#train
+msgid "Comments are closed."
+msgstr ""
+
+#: comments-template.php:13
+#train
+msgid "Leave a commment"
+msgstr ""
+
+#: comments-template.php:26
+#train
+msgid "Full Name"
+msgstr ""
+
+#: comments-template.php:29
+#train
+msgid "Your Email"
+msgstr ""
+
+#: footer.php:35
+#train
+msgid "Copyright &copy; 2016. Your Company. All Rights Reserved."
+msgstr ""
+
+#: functions.php:55
+#train
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:56
+#train
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:163
+#train
+msgid "Sidebar Right"
+msgstr ""
+
+#: functions.php:173
+#train
+msgid "Sidebar Left"
+msgstr ""
+
+#: functions.php:183
+#train
+msgid "Footer Sidebar"
+msgstr ""
+
+#: search.php:17
+#, php-format
+#train
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:65
+#: front-page.php: 55
+#: front-page.php: 151
+#: template-parts/content.php:50
+#, php-format
+#train
+msgid "Read More"
+msgstr ""
+
+
+#: front-page.php:100
+#train
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content.php:39
+#train
+msgid "No comment"
+msgid "1 comment"
+msgid "% comments"
+msgstr ""
+
+#: template-parts/content-none.php:15
+#train
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:23
+#, php-format
+#train
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:27
+#train
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:32
+#train
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22
+#: fullwidth:31
+#train
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:31
+#train
+msgid "Edit"
+msgstr ""
+
+
+#: searchform.php:4
+#train
+msgid "Type Something to search:"
+msgstr ""
+
+#: inc/customizer.php:46
+#: inc/customizer.php:47
+#train
+msgid "Train Theme Option."
+msgstr ""
+
+#: inc/customizer.php:55
+#train
+msgid "Topbar Header Section"
+msgstr ""
+
+#: inc/customizer.php:56
+#train
+msgid " Configure Your Email and Telephone, and Social Icons"
+msgstr ""
+
+#: inc/customizer.php:72
+#train
+msgid " Top Email Address Url"
+msgstr ""
+
+#: inc/customizer.php:89
+#train
+msgid " Topbar Phone"
+msgstr ""
+
+#: inc/customizer.php:101
+#train
+msgid " Show social icons"
+msgstr ""
+
+
+#: inc/customizer.php:117
+#train
+msgid " Facebook"
+msgstr ""
+
+#: inc/customizer.php:132
+#train
+msgid " Twitter"
+msgstr ""
+
+#: inc/customizer.php:148
+#train
+msgid " Googleplus"
+msgstr ""
+
+#: inc/customizer.php:164
+#train
+msgid " Skype"
+msgstr ""
+
+#: inc/customizer.php:181
+#train
+msgid " Linkedin"
+msgstr ""
+
+#: inc/customizer.php:192
+#train
+msgid " Slider Categories"
+msgstr ""
+
+#: inc/customizer.php:193
+#train
+msgid " Select the Slide Category for Homepage."
+msgstr ""
+
+#: inc/customizer.php:201
+#: inc/customizer.php:378
+#train
+msgid " Choose category"
+msgstr ""
+
+#: inc/customizer.php:215
+#train
+msgid "No Of Posts To Show On Slider Section"
+msgstr ""
+
+#: inc/customizer.php:239
+#train
+msgid "Contact Us  Text"
+msgstr ""
+
+
+#: inc/customizer.php:271
+#train
+msgid "Welcome Section"
+msgstr ""
+
+#: inc/customizer.php:285
+#train
+msgid "Welcome Heading"
+msgstr ""
+
+#: inc/customizer.php:302
+#train
+msgid "Welcome Second Heading"
+msgstr ""
+
+#: inc/customizer.php:318
+#train
+msgid "Welcome Text Content"
+msgstr ""
+
+#: inc/customizer.php:325
+#train
+msgid "Content"
+msgstr ""
+
+
+#: inc/customizer.php:339
+#train
+msgid "Welcome Button Link"
+msgstr ""
+
+#: inc/customizer.php:351
+#train
+msgid "Features Categories"
+msgstr ""
+
+#: inc/customizer.php:352
+#train
+msgid "Select the Category for Features Section in Homepage"
+msgstr ""
+
+#: inc/customizer.php:393
+#train
+msgid "No Of Posts To Show On Feature Section"
+msgstr ""
+
+#: inc/customizer.php:413
+#train
+msgid "Other Settings"
+msgstr ""
+
+#: inc/customizer.php:414
+#train
+msgid "Customize your Footer section."
+msgstr ""
+
+#: inc/customizer.php:427
+#train
+msgid "Copyright &copy; 2015. Train Theme. All Rights Reserved."
+msgstr ""
+
+#: inc/customizer.php:434
+#train
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer.php:472
+#: inc/customizer.php:480
+#train
+msgid "Category Sidebar"
+msgstr ""
+
+#: inc/customizer.php:500
+#train
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: inc/customizer.php:508
+#train
+msgid "Single Post Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:526
+#train
+msgid "Single Page Sidebar"
+msgstr ""
+
+#: inc/customizer.php:534
+#train
+msgid "Single Page Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:552
+#train
+msgid "Search Page Sidebar"
+msgstr ""
+[2:19:34 PM] prajit chhetri: #: inc/customizer.php:560
+#train
+msgid "Search Page Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:576
+#train
+msgid "Page Not Found Sidebar"
+msgstr ""
+
+#: inc/customizer.php:584
+#train
+msgid "Page Not Found Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:485
+#: inc/customizer.php:513
+#: inc/customizer.php:539
+#: inc/customizer.php:565
+#: inc/customizer.php:589
+#train
+msgid "both"
+msgstr ""
+
+#: inc/customizer.php:486
+#: inc/customizer.php:514
+#: inc/customizer.php:540
+#: inc/customizer.php:566
+#: inc/customizer.php:590
+#train
+msgid "left"
+msgstr ""
+
+#: inc/customizer.php:487
+#: inc/customizer.php:515
+#: inc/customizer.php:541
+#: inc/customizer.php:567
+#: inc/customizer.php:591
+#: inc/archive.php:19
+#train
+msgid "right"
+msgstr ""
+
+#: inc/custom-train.php:124
+#train
+msgid "Select"
+msgstr ""
+
+#: inc/header.php:95
+#train
+msgid "Toggle navigation"
+msgstr ""

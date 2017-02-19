@@ -1,0 +1,742 @@
+#musli-social-links, #musli-social-links * {
+	margin: 0;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#musli-social-links a, #musli-social-links a:focus, #musli-social-links a:active {
+	outline: 0!important;
+}
+
+#musli-social-links {
+	list-style-type: none;
+	z-index: 1000;
+	position: fixed;
+	right: 0;
+	top: 10%;
+}
+
+#musli-social-links > li {
+	display: block;
+	position: relative;
+	background: #0f0f0f;
+	margin-bottom: 5px;
+	right: -100%;
+	height: 50px;
+
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+#musli-social-links > li:hover {
+		right: 0;
+}
+
+#musli-social-links > li > a {
+	display: block;
+	font-size: 20px;
+	white-space: nowrap;
+	/*font-family: 'Racing Sans One', cursive;*/
+	font-family: "Kalam", sans-serif;
+	color: #fff;
+	text-decoration: none;
+	line-height: 50px;
+	padding: 0 15px;
+
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+
+}
+
+#musli-social-links > li > a > i {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	position: absolute;
+	right: 100%;
+	background: #000;
+
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+/* Positioning: left */
+#musli-social-links.msl-left {
+	right: auto;
+	left: 0;
+}
+
+#musli-social-links.msl-left > li {
+	right: auto;
+	left: -100%;
+}
+
+#musli-social-links.msl-left > li:hover {
+	right: auto;
+	left: 0;
+}
+
+#musli-social-links.msl-left > li > a {
+	text-align: right;
+}
+
+#musli-social-links.msl-left > li > a > i {
+	right: auto;
+	left: 100%;
+}
+
+/* DEFAULT THEME */
+/* ================================= */
+
+/* Default link - no class specifed */
+.msl-theme-default li {
+	background: #ff9a20!important;
+}
+.msl-theme-default i {
+	background: #FF8C01!important;
+}
+
+/* envelope */
+.msl-theme-default .msl-envelope, .msl-theme-default .msl-envelope-o {
+	background: #94d900!important;
+}
+.msl-theme-default .msl-envelope i, .msl-theme-default .msl-envelope-o i {
+	background: #7FBA00!important;
+}
+
+/* google-plus */
+.msl-theme-default .msl-google-plus {
+	background: #e05c51!important;
+}
+.msl-theme-default .msl-google-plus i {
+	background: #DD4B39!important;
+}
+
+/* twitter */
+.msl-theme-default .msl-twitter {
+	background: #3aadf4!important;
+}
+.msl-theme-default .msl-twitter i {
+	background: #1DA1F2!important;
+}
+
+/* facebook */
+.msl-theme-default .msl-facebook {
+	background: #4b6cb2!important;
+}
+.msl-theme-default .msl-facebook i {
+	background: #425F9C!important;
+}
+
+/* youtube */
+.msl-theme-default .msl-youtube {
+	background: #ea3a31!important;
+}
+.msl-theme-default .msl-youtube i {
+	background: #E62117!important;
+}
+
+/* skype */
+.msl-theme-default .msl-skype {
+	background: #10beff!important;
+}
+.msl-theme-default .msl-skype i {
+	background: #00AFF0!important;
+}
+
+/* pinterest */
+.msl-theme-default .msl-pinterest {
+	background: #e8241c!important;
+}
+.msl-theme-default .msl-pinterest i {
+	background: #D01D15!important;
+}
+
+/* instagram */
+.msl-theme-default .msl-instagram {
+	background: #1667a3!important;
+}
+.msl-theme-default .msl-instagram i {
+	background: #125688!important;
+}
+
+/* link */
+.msl-theme-default .msl-link {
+	background: #fc7d2a!important;
+}
+.msl-theme-default .msl-link i {
+	background: #FC6A0C!important;
+}
+
+/* THEME 2 */
+/* ================================= */
+
+.msl-theme-2 li {
+	background: #DDDDDD!important;
+}
+.msl-theme-2 i {
+	background: #DDDDDD;
+}
+
+/* Default link - no class specifed */
+.msl-theme-2 li:hover {
+	background: #ff9a20!important;
+}
+.msl-theme-2 li:hover i {
+	background: #FF8C01!important;
+}
+
+/* envelope */
+.msl-theme-2 .msl-envelope:hover, .msl-theme-2 .msl-envelope-o:hover {
+	background: #94d900!important;
+}
+.msl-theme-2 .msl-envelope:hover i, .msl-theme-2 .msl-envelope-o:hover i {
+	background: #7FBA00!important;
+}
+
+/* google-plus */
+.msl-theme-2 .msl-google-plus:hover {
+	background: #e05c51!important;
+}
+.msl-theme-2 .msl-google-plus:hover i {
+	background: #DD4B39!important;
+}
+
+/* twitter */
+.msl-theme-2 .msl-twitter:hover {
+	background: #3aadf4!important;
+}
+.msl-theme-2 .msl-twitter:hover i {
+	background: #1DA1F2!important;
+}
+
+/* facebook */
+.msl-theme-2 .msl-facebook:hover {
+	background: #4b6cb2!important;
+}
+.msl-theme-2 .msl-facebook:hover i {
+	background: #425F9C!important;
+}
+
+/* youtube */
+.msl-theme-2 .msl-youtube:hover {
+	background: #ea3a31!important;
+}
+.msl-theme-2 .msl-youtube:hover i {
+	background: #E62117!important;
+}
+
+/* skype */
+.msl-theme-2 .msl-skype:hover {
+	background: #10beff!important;
+}
+.msl-theme-2 .msl-skype:hover i {
+	background: #00AFF0!important;
+}
+
+/* pinterest */
+.msl-theme-2 .msl-pinterest:hover {
+	background: #e8241c!important;
+}
+.msl-theme-2 .msl-pinterest:hover i {
+	background: #D01D15!important;
+}
+
+/* .instagram */
+.msl-theme-2 .msl-instagram:hover {
+	background: #1667a3!important;
+}
+.msl-theme-2 .msl-instagram:hover i {
+	background: #125688!important;
+}
+
+/* link */
+.msl-theme-2 .msl-link:hover {
+	background: #fc7d2a!important;
+}
+.msl-theme-2 .msl-link:hover i {
+	background: #FC6A0C!important;
+}
+
+/* THEME 3 */
+/* ================================= */
+
+.msl-theme-3 li i {
+	background: #fff!important;
+	color: #fff;
+	z-index:-1;
+
+	-webkit-box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+
+	-webkit-border-radius: 100px 0 0 100px;
+	-moz-border-radius: 100px 0 0 100px;
+	border-radius: 100px 0 0 100px;
+}
+
+.msl-theme-3 li {
+	background: #fff!important;
+
+	-webkit-box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+}
+
+.msl-theme-3 li a {
+	padding-left: 5px!important;
+}
+
+.msl-theme-3 li i:after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	bottom: 4px;
+	left: 4px;
+	margin: auto;
+	background: #ddd;
+	z-index: -1;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+/* for left positioning */
+.msl-theme-3.msl-left li {
+	-webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.35);
+}
+
+.msl-theme-3.msl-left li a {
+	padding-right: 5px!important;
+	padding-left: 15px!important;
+}
+
+.msl-theme-3.msl-left li i {
+	z-index: 1;
+
+	-webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.35);
+
+	-webkit-border-radius: 0 100px 100px 0;
+	-moz-border-radius: 0 100px 100px 0;
+	border-radius: 0 100px 100px 0;
+}
+
+
+/* Default link - no class specifed */
+.msl-theme-3 li:hover a{
+	color: #ff9a20!important;
+}
+.msl-theme-3 li:hover i:after {
+	background: #ff9a20!important;
+}
+
+/* envelope */
+.msl-theme-3 .msl-envelope:hover a, .msl-theme-3 .msl-envelope-o:hover a{
+	color: #94d900!important;
+}
+.msl-theme-3 .msl-envelope:hover i:after, .msl-theme-3 .msl-envelope-o:hover i:after {
+	background: #94d900!important;
+}
+
+/* google-plus */
+.msl-theme-3 .msl-google-plus:hover a{
+	color: #e05c51!important;
+}
+.msl-theme-3 .msl-google-plus:hover i:after {
+	background: #e05c51!important;
+}
+
+/* twitter */
+.msl-theme-3 .msl-twitter:hover a{
+	color: #3aadf4!important;
+}
+.msl-theme-3 .msl-twitter:hover i:after {
+	background: #3aadf4!important;
+}
+
+/* facebook */
+.msl-theme-3 .msl-facebook:hover a{
+	color: #4b6cb2!important;
+}
+.msl-theme-3 .msl-facebook:hover i:after {
+	background: #4b6cb2!important;
+}
+
+/* youtube */
+.msl-theme-3 .msl-youtube:hover a{
+	color: #ea3a31!important;
+}
+.msl-theme-3 .msl-youtube:hover i:after {
+	background: #ea3a31!important;
+}
+
+/* skype */
+.msl-theme-3 .msl-skype:hover a{
+	color: #10beff!important;
+}
+.msl-theme-3 .msl-skype:hover i:after {
+	background: #10beff!important;
+}
+
+/* pinterest */
+.msl-theme-3 .msl-pinterest:hover a{
+	color: #e8241c!important;
+}
+.msl-theme-3 .msl-pinterest:hover i:after {
+	background: #e8241c!important;
+}
+
+/* .instagram */
+.msl-theme-3 .msl-instagram:hover a{
+	color: #1667a3!important;
+}
+.msl-theme-3 .msl-instagram:hover i:after {
+	background: #1667a3!important;
+}
+
+/* link */
+.msl-theme-3 .msl-link:hover a{
+	color: #fc7d2a!important;
+}
+.msl-theme-3 .msl-link:hover i:after {
+	background: #fc7d2a!important;
+}
+
+
+/* THEME 4 */
+/* ================================= */
+
+
+.msl-theme-4 li i {
+	background: #fff!important;
+	color: #fff;
+	z-index:-1;
+
+	-webkit-box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+
+	-webkit-border-radius: 100px 0 0 100px;
+	-moz-border-radius: 100px 0 0 100px;
+	border-radius: 100px 0 0 100px;
+}
+
+.msl-theme-4 li {
+	background: #fff!important;
+
+	-webkit-box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 3px 1px 2px 0px rgba(0, 0, 0, 0.35);
+}
+
+.msl-theme-4 li a {
+	padding-left: 5px!important;
+}
+
+.msl-theme-4 li i:after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	bottom: 4px;
+	left: 4px;
+	margin: auto;
+	background: #ddd;
+	z-index: -1;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+/* for left positioning */
+.msl-theme-4.msl-left li {
+	-webkit-box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.35);
+}
+.msl-theme-4.msl-left li i {
+	z-index: 1;
+
+	-webkit-box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.35);
+	box-shadow: 2px 1px 2px 0px rgba(0, 0, 0, 0.35);
+
+	-webkit-border-radius: 0 100px 100px 0;
+	-moz-border-radius: 0 100px 100px 0;
+	border-radius: 0 100px 100px 0;
+}
+
+/* Default link - no class specifed */
+.msl-theme-4 li:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 li:hover i:after {
+	background: #ff9a20!important;
+}
+
+.msl-theme-4 li:hover, .msl-theme-4 li:hover i {
+	background: #FF8C01!important;
+}
+
+/* envelope */
+.msl-theme-4 .msl-envelope:hover, .msl-theme-4 .msl-envelope-o:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 .msl-envelope:hover i:after, .msl-theme-4 .msl-envelope-o:hover i:after {
+	background: #94d900!important;
+}
+
+.msl-theme-4 .msl-envelope:hover, .msl-theme-4 .msl-envelope-o:hover, .msl-theme-4 .msl-envelope:hover i, .msl-theme-4 .msl-envelope-o:hover i {
+	background: #7FBA00!important;
+}
+
+/* google-plus */
+.msl-theme-4 .msl-google-plus:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 .msl-google-plus:hover i:after {
+	background: #e05c51!important;
+}
+
+.msl-theme-4 .msl-google-plus:hover, .msl-theme-4 .msl-google-plus:hover i {
+	background: #DD4B39!important;
+}
+
+/* twitter */
+.msl-theme-4 .msl-twitter:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 .msl-twitter:hover i:after {
+	background: #3aadf4!important;
+}
+
+.msl-theme-4 .msl-twitter:hover, .msl-theme-4 .msl-twitter:hover i {
+	background: #1DA1F2!important;
+}
+
+/* facebook */
+.msl-theme-4 .msl-facebook:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 .msl-facebook:hover i:after {
+	background: #4b6cb2!important;
+}
+
+.msl-theme-4 .msl-facebook:hover, .msl-theme-4 .msl-facebook:hover i {
+	background: #425F9C!important;
+}
+
+/* youtube */
+.msl-theme-4 .msl-youtube:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 .msl-youtube:hover i:after {
+	background: #ea3a31!important;
+}
+
+.msl-theme-4 .msl-youtube:hover, .msl-theme-4 .msl-youtube:hover i {
+	background: #E62117!important;
+}
+
+/* skype */
+.msl-theme-4 .msl-skype:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 .msl-skype:hover i:after {
+	background: #10beff!important;
+}
+
+.msl-theme-4 .msl-skype:hover, .msl-theme-4 .msl-skype:hover i {
+	background: #00AFF0!important;
+}
+
+/* pinterest */
+.msl-theme-4 .msl-pinterest:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 .msl-pinterest:hover i:after {
+	background: #e8241c!important;
+}
+
+.msl-theme-4 .msl-pinterest:hover, .msl-theme-4 .msl-pinterest:hover i {
+	background: #D01D15!important;
+}
+
+/* .instagram */
+.msl-theme-4 .msl-instagram:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 .msl-instagram:hover i:after {
+	background: #1667a3!important;
+}
+
+.msl-theme-4 .msl-instagram:hover, .msl-theme-4 .msl-instagram:hover i {
+	background: #125688!important;
+}
+
+/* link */
+.msl-theme-4 .msl-link:hover {
+	color: #fff!important;
+}
+
+.msl-theme-4 .msl-link:hover i:after {
+	background: #fc7d2a!important;
+}
+
+.msl-theme-4 .msl-link:hover, .msl-theme-4 .msl-link:hover i {
+	background: #FC6A0C!important;
+}
+
+
+/* THEME 5 */
+/* ================================= */
+.msl-theme-5 li {
+	background: #fff!important;
+}
+
+.msl-theme-5 li a {
+	color: #666!important;
+}
+
+.msl-theme-5 li i {
+	color: #fff!important;
+	margin: 0!important;
+
+	-webkit-border-radius: 5px 0 0 5px!important;
+	-moz-border-radius: 5px 0 0 5px!important;
+	border-radius: 5px 0 0 5px!important;
+}
+
+.msl-theme-5 li:hover i{
+	color: #fff!important;
+}
+
+/* for left positioning */
+.msl-theme-5.msl-left li i {
+	-webkit-border-radius: 0 5px 5px 0!important;
+	-moz-border-radius: 0 5px 5px 0!important;
+	border-radius: 0 5px 5px 0!important;	
+}
+
+/* THEME 6 */
+/* ================================= */
+
+.msl-theme-6 li {
+	background: #fff!important;
+}
+
+.msl-theme-6 li a {
+	color: #666!important;
+
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+.msl-theme-6 li i {
+	background: #fff!important;
+	color: #666;
+	margin: 0!important;
+
+	-webkit-border-radius: 5px 0 0 5px!important;
+	-moz-border-radius: 5px 0 0 5px!important;
+	border-radius: 5px 0 0 5px!important;
+}
+
+/* for left positioning */
+.msl-theme-6.msl-left li i {
+	-webkit-border-radius: 0 5px 5px 0!important;
+	-moz-border-radius: 0 5px 5px 0!important;
+	border-radius: 0 5px 5px 0!important;	
+}
+
+/* envelope */
+.msl-theme-6 .msl-envelope:hover i, .msl-theme-6 .msl-envelope-o:hover i, .msl-theme-6 .msl-envelope:hover a, .msl-theme-6 .msl-envelope-o:hover a {
+	color: #7FBA00!important;
+}
+
+/* google-plus */
+.msl-theme-6 .msl-google-plus:hover i, .msl-theme-6 .msl-google-plus:hover a {
+	color: #DD4B39!important;
+}
+
+/* twitter */
+.msl-theme-6 .msl-twitter:hover i, .msl-theme-6 .msl-twitter:hover a {
+	color: #1DA1F2!important;
+}
+
+/* facebook */
+.msl-theme-6 .msl-facebook:hover i, .msl-theme-6 .msl-facebook:hover a {
+	color: #425F9C!important;
+}
+
+/* youtube */
+.msl-theme-6 .msl-youtube:hover i, .msl-theme-6 .msl-youtube:hover a {
+	color: #E62117!important;
+}
+
+/* skype */
+.msl-theme-6 .msl-skype:hover i, .msl-theme-6 .msl-skype:hover a {
+	color: #00AFF0!important;
+}
+
+/* pinterest */
+.msl-theme-6 .msl-pinterest:hover i, .msl-theme-6 .msl-pinterest:hover a {
+	color: #D01D15!important;
+}
+
+/* .instagram */
+.msl-theme-6 .msl-instagram:hover i, .msl-theme-6 .msl-instagram:hover a {
+	color: #125688!important;
+}
+
+/* link */
+.msl-theme-6 .msl-link:hover i, .msl-theme-6 .msl-link:hover a {
+	color: #FC6A0C!important;
+}
+
+/* THEME 7 */
+/* ================================= */
+
+.msl-theme-7 li i {
+	background: #000!important;
+}
+
+.msl-theme-7 li {
+	background: #111!important;
+}
